@@ -1,77 +1,51 @@
 ﻿@font-face {
-  font-family: 'itim';
-  src: url('itim/itim-Regular.ttf');
+  font-family: 'Kanit';
+  src: url('font/Kanit1/Kanit-Regular.ttf');
+}
+
+
+@font-face {
+  font-family: 'Kanitb';
+  src: url('font/Kanit1/Kanit-Bold.ttf');
+}
+
+
+@font-face {
+  font-family: 'open-sans';
+  src: url('font/open-sans.light.ttf');
 }
 
 @font-face {
-  font-family: 'Archivo';
-  src: url('Archivo_Narrow/ArchivoNarrow-Regular.ttf');
+  font-family: 'Fave';
+  src: url('fontb/fave.woff2');
 }
-
-@font-face {
-  font-family: 'Barlow';
-  src: url('Barlow_Condensed/BarlowCondensed-Regular.ttf');
-}
-
 
 @font-face {
   font-family: 'Opensans';
-  src: url('Open_Sans/OpenSans-Regular.ttf');
+  src: url('font/open-sans.regular.ttf');
 }
 
-@font-face {
-  font-family: 'Sansita';
-  src: url('Sansita_Swashed/SansitaSwashed-VariableFont_wght.ttf');
-}
-
-@font-face {
-  font-family: 'Source_Serif';
-  src: url('Source_Serif_Pro/SourceSerifPro-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Teko';
-  src: url('Teko/Teko-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'arthein';
-  src: url('arthein/Arthein.otf');
-}
 
 
 .myfont1{
-  font-family:'Opensans', sans-serif;
+  font-family:'Kanit', sans-serif;
 }
 
 .myfont2{
-  font-family:'Archivo', sans-serif;
+  font-family:'open-sans', sans-serif;
 }
 
 .myfont3{
-  font-family:'Barlow', sans-serif;
-}
-
-.myfont4{
   font-family:'Opensans', sans-serif;
 }
 
+.myfont4{
+  font-family:'Fave', sans-serif;
+}
+
 .myfont5{
-  font-family:'Sansita', sans-serif;
+  font-family:'Kanit', sans-serif;
 }
-
-.myfont6{
-  font-family:'Source_Serif', sans-serif;
-}
-
-.myfont7{
-  font-family:'Teko', sans-serif;
-}
-
-.myfont8{
-  font-family:'arthein', sans-serif;
-}
-
 
   
 .backgroundcl {
