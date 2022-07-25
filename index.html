@@ -10,124 +10,17 @@
     </head>
     <body>
 
-        <!--Main Menu Desktop-->
-        <div class="w3-hide-small w3-hide-medium">
-        <div class="w3-col w3-white w3-card-2" style="min-height:140px; position:fixed">
+   
 
-            <div class="w3-col l3 m3 s3 w3-center w3-padding-top">
-                <img src="images/logo-with-tagline.svg" style="max-width:100%; height:120px" />
-            </div>
-
-            <div class="w3-col l8 m8 s8 w3-padding-top">
-
-                <div class="w3-col w3-border-bottom w3-right-align" style="height:70px; padding:20px">
-
-                    
-                    <i class="fa-solid fa-language w3-text-orange w3-large"></i> <span class="myfont5 w3-small"> Select Language </span>  
-
-                    <select class="w3-small w3-round myfont1" style="margin-right:50px; width:100px">
-                        <option> English </option>
-                    </select> 
-
-                    <i class="fa-solid fa-envelope w3-text-orange w3-small"></i> <span class="myfont5 w3-small" style="margin-right:50px"> Contact </span>  
-
-                    <i class="fa-brands fa-facebook w3-text-orange w3-small"></i>
-                    <i class="fa-brands fa-instagram w3-text-orange w3-small"></i>
-                    <i class="fa-brands fa-twitter w3-text-orange w3-small"></i>
-                    <i class="fa-brands fa-linkedin w3-text-orange w3-small"></i>
-
-                </div>
-
-                <div class="w3-col" style="height:70px;padding-top:10px">
-                    <div class="w3-bar">
-                        <a href="#" class="w3-bar-item w3-button w3-hide myfont5">Home</a>
-                        <div class="w3-dropdown-hover w3-col l2">
-                          <button class="w3-button  myfont5 w3-small">ABOUT <i class="fa-solid fa-chevron-down w3-text-orange"></i></button>
-                          <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                            <a href="#" class="w3-bar-item w3-button myfont5">Link 1</a>
-                            <a href="#" class="w3-bar-item w3-button myfont5">Link 2</a>
-                            <a href="#" class="w3-bar-item w3-button myfont5">Link 3</a>
-                          </div>
-                        </div>
-                        <div class="w3-dropdown-hover w3-col l2">
-                            <button class="w3-button  myfont5 w3-small">PROGRAM <i class="fa-solid fa-chevron-down w3-text-orange"></i></button>
-                            <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                              <a href="#" class="w3-bar-item w3-button myfont5">Link 1</a>
-                              <a href="#" class="w3-bar-item w3-button myfont5">Link 2</a>
-                              <a href="#" class="w3-bar-item w3-button myfont5">Link 3</a>
-                            </div>
-                          </div>
-                        <a href="#" class="w3-bar-item w3-button w3-col l2  myfont5 w3-small">GET INVOLVED</a>
-                        <a href="#" class="w3-bar-item w3-button w3-col l2  myfont5 w3-small">LANGUAGE PROSE</a>
-                        <a href="#" class="w3-bar-item w3-button w3-col l2  myfont5 w3-small">BLOG</a>
-                        <a href="#" class="w3-bar-item w3-button w3-col l2  myfont5 w3-small">DONATE</a>
-                      </div>
-                </div>
-            </div>
-            
+        <div w3-include-html="components/mainmenu.html">
+             
         </div>
 
-        <div class="w3-col w3-white" style="min-height:140px;">
-        <br /> &nbsp;
-        </div>  
-       </div>
-       <!-- End Main Menu Desktop-->
+        <div w3-include-html="components/mobilemenu.html">
+             
+        </div>
 
-
-       <!--Main Menu Mobile-->
-       <div class="w3-hide-large">
-            
-            <div class="w3-col w3-white w3-card-2" style="min-height:80px; position:fixed; padding:10px">
-                <img src="images/logo-with-tagline.svg" style="max-width:100%; height:60px" />
-
-                <i onclick="openRightMenu()" class="fa-solid fa-bars w3-right w3-xlarge w3-text-orange" style="margin-top:15px"></i>
-            </div>
-
-            <div class="w3-col w3-white" style="min-height:80px;">
-               <br /> &nbsp;
-            </div>  
-
-            <div class="w3-sidebar w3-bar-block w3-card w3-animate-right w3-padding w3-blue-grey myfont2" style="display:none;right:0; width:300px; max-width:70%" id="rightMenu">
-                <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large w3-text-red w3-right-align">Close &times;</button>
-                <p>
-                    <span class="w3-text-yellow w3-large"> <b> ABOUT </b> </span>
-                </p>
-                <p>
-                    <a class="w3-margin-top"> <span> <b> Events </b> </span> </a> <br /><br />
-                    <a class="w3-margin-top"> <span> <b> Boards of Directors </b> </span> </a> <br />
-                </p>
-
-                <p>
-                    <span class="w3-text-yellow w3-large"> <b> PROGRAMS </b> </span>
-                </p>
-
-                <p>
-                    <a class="w3-margin-top"> <span> <b> Events </b> </span> </a> <br /><br />
-                    <a class="w3-margin-top"> <span> <b> Boards of Directors </b> </span> </a> <br /><br />
-                    <a class="w3-margin-top"> <span> <b> Events </b> </span> </a> <br /><br />
-                    <a class="w3-margin-top"> <span> <b> Boards of Directors </b> </span> </a> <br /><br />
-                    <a class="w3-margin-top"> <span> <b> Events </b> </span> </a> <br /><br />
-                    <a class="w3-margin-top"> <span> <b> Boards of Directors </b> </span> </a> <br /><br />
-                </p>
-
-                <p>
-                    <a> <span class="w3-text-yellow w3-large"> <b> GET INVOLVED </b> </span></a>
-                </p>
-                <p>
-                    <a> <span class="w3-text-yellow w3-large"> <b> LANGUAGE PROSE </b> </span></a>
-                </p>
-                <p>
-                    <a> <span class="w3-text-yellow w3-large"> <b>BLOG </b> </span></a>
-                </p>
-
-                <p>
-                    <a class="w3-btn w3-orange"> <span class="w3-text-white w3-large"> <b> DONATE </b> </span></a>
-                </p>
-
-           </div>
-
-       </div>
-       <!--End Main Menu Mobile-->
+      
 
 
         <div class="w3-col w3-black" style="min-height:400px">
@@ -156,95 +49,9 @@
             
         </div>
 
-        <!--Footer-->
-        <div class="w3-col w3-white myfont1" style="min-height:200px; padding-top:50px; padding-bottom: 50px;">
-
-            <div class="w3-col l3 s12 m6 w3-padding">
-
-
-                <img src="images/logo-with-tagline.svg" style="max-width:100%; height:120px" />
-
-                <div>
-                    <p class="w3-padding w3-text-orange">Sign Up for our NewsLetter</p>
-                    <input placeholder="Email" class="w3-input w3-border" />
-                    <a class="w3-btn w3-orange w3-hover-blue-grey w3-text-white" style="width:100%"> Sign Up</a>
-                </div>
-
-
-            </div>
-
-
-            <div class="w3-col l3 s12 m6 w3-padding">
-
-                <p> 
-                    <i class="fa-solid fa-phone-flip w3-text-orange"></i> <span style="margin-left:10px"> <b> 410-992-1923 </b>  </span>
-                </p>
-                
-
-                <p style="margin-top:20px">
-                    <i class="fa-solid fa-phone-flip w3-text-orange"></i> <span style="margin-left:10px"> <b> 410-992-1923 </b>  </span>
-                </p>
-
-                <p style="margin-top:20px">
-                    <i class="fa-solid fa-phone-flip w3-text-orange"></i> <span style="margin-left:10px"> <b> 410-992-1923 </b>  </span>
-                </p>
-
-                <p style="margin-top:20px">
-                    <i class="fa-solid fa-phone-flip w3-text-orange"></i> <span style="margin-left:10px"> <b> 410-992-1923 </b>  </span>
-                </p>
-                
-
-            </div>
-
-            <div class="w3-col l3 s12 m6 w3-padding">
-
-                <p> 
-                    <a> About </a>
-                </p>
-
-                <p style="margin-top:20px"> 
-                    <a> Programs </a>
-                </p>
-
-                <p style="margin-top:20px"> 
-                    <a> Programs </a>
-                </p>
-
-                <p style="margin-top:20px"> 
-                    <a> Programs </a>
-                </p>
-
-                <p style="margin-top:20px"> 
-                    <a> Programs </a>
-                </p>
-
-                <p style="margin-top:20px"> 
-                    <a> Programs </a>
-                </p>
-
-            </div>
-
-            <div class="w3-col l3 s12 m6 w3-padding">
-
-                 <a href="" class="w3-btn w3-orange w3-text-white w3-hover-blue-grey" style="width:140px; max-width:100%"> <b> DONATE </b></a>
-
-                 <p  style="margin-top:40px"> 
-                    <i class="fa-brands fa-facebook w3-text-orange w3-large"></i> &nbsp;
-                    <i class="fa-brands fa-instagram w3-text-orange w3-large"></i> &nbsp;
-                    <i class="fa-brands fa-twitter w3-text-orange w3-large"></i> &nbsp;
-                    <i class="fa-brands fa-linkedin w3-text-orange w3-large"></i> &nbsp; 
-                 </p>
-                
-            </div>
-            
+        <div w3-include-html="components/footer.html">
+             
         </div>
-        <!--End Footer-->
-
-        <!--Sub Footer-->
-        <div class="w3-col w3-blue-grey myfont1" style="min-height:40px; padding:15px">
-             &copy 2022 <a href="#"> Privacy Policy </a>
-        </div>
-        <!--End Sub Footer-->
 
         <script src="js/menu.js"></script>
         <script src="js/include.js"></script>
