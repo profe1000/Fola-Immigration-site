@@ -25,3 +25,5 @@ function showDivs(n) {
   dots[slideIndex-1].className += " w3-blue";
 }
 
+
+setInterval(plusDivs, 3000, 1);

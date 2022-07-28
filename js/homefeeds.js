@@ -1,25 +1,29 @@
 var ourprogram =[
-    {name:"AFGHAN ALLIANCE",
+    {name:"Immigration Legal Services",
     icon:"fa-solid fa-hand",
     details:"Assisting you and your family as you navigate the immigration process."
     },
-    {name:"AFGHAN ALLIANCE",
+    {name:"Immigrant applications forms assistance",
     icon:"fa-solid fa-hand",
     details:"Assisting you and your family as you navigate the immigration process."
     },
-    {name:"AFGHAN ALLIANCE",
+    {name:"Work authorization applications",
     icon:"fa-solid fa-hand",
     details:"Assisting you and your family as you navigate the immigration process."
     },
-    {name:"AFGHAN ALLIANCE",
+    {name:"Family services",
     icon:"fa-solid fa-hand",
     details:"Assisting you and your family as you navigate the immigration process."
     },
-    {name:"AFGHAN ALLIANCE",
+    {name:"Consultations regarding eligibility",
     icon:"fa-solid fa-hand",
     details:"Assisting you and your family as you navigate the immigration process."
     },
-    {name:"AFGHAN ALLIANCE",
+    {name:"Forums, reddit, messaging boards",
+    icon:"fa-solid fa-hand",
+    details:"Assisting you and your family as you navigate the immigration process."
+    },
+    {name:"Medical referral services",
     icon:"fa-solid fa-hand",
     details:"Assisting you and your family as you navigate the immigration process."
     }
@@ -60,7 +64,7 @@ function loadprogramcontent(){
 
         programcontent =  programcontent + `<div class='w3-col l4 s12 m12 ' style='padding:5px'>
 
-        <div class='programcard w3-col w3-white w3-hover-pale-blue w3-border-round w3-center w3-margin-bottom'>
+        <div class='programcard sameheight w3-col w3-white w3-hover-pale-blue w3-border-round w3-center w3-margin-bottom'>
     
     
             <div class='inactive'  style='padding-top:100px; padding-bottom:100px'>
@@ -96,7 +100,7 @@ function loadblogcontent(){
         blogcontent =   blogcontent + `
         <div class="w3-col l4 s12 m12" style="padding:5px">
 
-        <div class="w3-col w3-white w3-hover-pale-blue w3-border-round w3-margin-bottom">
+        <div class="w3-col sameheightblog  w3-white w3-hover-pale-blue w3-border-round w3-margin-bottom">
             <img src="images/blogimg.jpg" style="max-width:100%" />
             <div class="w3-padding">
 
