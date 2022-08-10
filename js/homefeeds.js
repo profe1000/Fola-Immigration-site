@@ -1,5 +1,5 @@
 var ourprogram =[
-    {name:"Immigration Legal Services",
+    {name:"Immigration Legal Referrals",
     icon:"fa-solid fa-hand",
     details:"Assisting you and your family as you navigate the immigration process."
     },
@@ -11,19 +11,15 @@ var ourprogram =[
     icon:"fa-solid fa-hand",
     details:"Assisting you and your family as you navigate the immigration process."
     },
+    {name:"Consultations - eligibility and guidance on immigration laws and regulations",
+    icon:"fa-solid fa-hand",
+    details:"Assisting you and your family as you navigate the immigration process."
+    },
     {name:"Family services",
     icon:"fa-solid fa-hand",
     details:"Assisting you and your family as you navigate the immigration process."
     },
-    {name:"Consultations regarding eligibility",
-    icon:"fa-solid fa-hand",
-    details:"Assisting you and your family as you navigate the immigration process."
-    },
-    {name:"Forums, reddit, messaging boards",
-    icon:"fa-solid fa-hand",
-    details:"Assisting you and your family as you navigate the immigration process."
-    },
-    {name:"Medical referral services",
+    {name:"Medical referral services for medical government programs, social service providers",
     icon:"fa-solid fa-hand",
     details:"Assisting you and your family as you navigate the immigration process."
     }
