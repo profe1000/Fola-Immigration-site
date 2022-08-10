@@ -1,31 +1,33 @@
 var ourprogram =[
-    {name:"Immigration Legal Services",
+    {name:"Immigration Legal Referrals",
     icon:"fa-solid fa-hand",
-    details:"Assisting you and your family as you navigate the immigration process."
+    details:"Assisting you and your family as you navigate the immigration process.",
+    link:"program_immigration_legal.html"
     },
     {name:"Immigrant applications forms assistance",
     icon:"fa-solid fa-hand",
-    details:"Assisting you and your family as you navigate the immigration process."
+    details:"Assisting you and your family as you navigate the immigration process.",
+    link:"program_immigration_application.html"
     },
     {name:"Work authorization applications",
     icon:"fa-solid fa-hand",
-    details:"Assisting you and your family as you navigate the immigration process."
+    details:"Assisting you and your family as you navigate the immigration process.",
+    link:"program_work_authorisation.html"
+    },
+    {name:"Consultations - eligibility and guidance on immigration laws and regulations",
+    icon:"fa-solid fa-hand",
+    details:"Assisting you and your family as you navigate the immigration process.",
+    link:"program_consultaion.html"
     },
     {name:"Family services",
     icon:"fa-solid fa-hand",
-    details:"Assisting you and your family as you navigate the immigration process."
+    details:"Assisting you and your family as you navigate the immigration process.",
+    link:"program_family_service.html"
     },
-    {name:"Consultations regarding eligibility",
+    {name:"Medical referral services for medical government programs, social service providers",
     icon:"fa-solid fa-hand",
-    details:"Assisting you and your family as you navigate the immigration process."
-    },
-    {name:"Forums, reddit, messaging boards",
-    icon:"fa-solid fa-hand",
-    details:"Assisting you and your family as you navigate the immigration process."
-    },
-    {name:"Medical referral services",
-    icon:"fa-solid fa-hand",
-    details:"Assisting you and your family as you navigate the immigration process."
+    details:"Assisting you and your family as you navigate the immigration process.",
+    link:"program_medical_related.html"
     }
 ]
 
@@ -80,7 +82,7 @@ function loadprogramcontent(){
     
                 <h3 class='myfont1 w3-text-blue-grey'> ${ourprogram[i].name} </h3>
                 <p class='myfont1 w3-padding'> ${ourprogram[i].details}</p>
-                <p>   <a class='w3-btn w3-blue myfont1'> Learn More </a></p>
+                <p>   <a href='${ourprogram[i].link}' class='w3-btn w3-blue myfont1'> Learn More </a></p>
             </div>
         
             
