@@ -1,31 +1,31 @@
 var ourprogram =[
     {name:"Immigration Legal Referrals",
-    icon:"fa-solid fa-hand",
+    icon:"fa-solid  fa-file-contract",
     details:"Assisting you and your family as you navigate the immigration process.",
     link:"program_immigration_legal.html"
     },
     {name:"Immigrant applications forms assistance",
-    icon:"fa-solid fa-hand",
+    icon:"fa-solid fa-file-lines",
     details:"Assisting you and your family as you navigate the immigration process.",
     link:"program_immigration_application.html"
     },
     {name:"Work authorization applications",
-    icon:"fa-solid fa-hand",
+    icon:"fa-solid fa-file",
     details:"Assisting you and your family as you navigate the immigration process.",
     link:"program_work_authorisation.html"
     },
     {name:"Consultations - eligibility and guidance on immigration laws and regulations",
-    icon:"fa-solid fa-hand",
+    icon:"fa-solid fa-microphone",
     details:"Assisting you and your family as you navigate the immigration process.",
     link:"program_consultaion.html"
     },
     {name:"Family services",
-    icon:"fa-solid fa-hand",
+    icon:"fa-solid fa-users",
     details:"Assisting you and your family as you navigate the immigration process.",
     link:"program_family_service.html"
     },
     {name:"Medical referral services for medical government programs, social service providers",
-    icon:"fa-solid fa-hand",
+    icon:"fa-solid fa-user-doctor",
     details:"Assisting you and your family as you navigate the immigration process.",
     link:"program_medical_related.html"
     }
@@ -34,21 +34,21 @@ var ourprogram =[
 
 var ournews =[
     {
-        title:"Illuminating Human Rights: Afghanistan",
+        title:"News Headline here",
         caption:"We are excited to share the first episode of Illuminating Human Rights, a podcast in association with the Luminus Network ...",
         date:"May 17, 2022",
         link:"",
         image:"images/blogimg.jpg"
     },
     {
-        title:"Illuminating Human Rights: Afghanistan",
+        title:"News Headline here",
         caption:"We are excited to share the first episode of Illuminating Human Rights, a podcast in association with the Luminus Network ...",
         date:"May 17, 2022",
         link:"",
         image:"images/blogimg.jpg"
     },
     {
-        title:"Illuminating Human Rights: Afghanistan",
+        title:"News Headline here",
         caption:"We are excited to share the first episode of Illuminating Human Rights, a podcast in association with the Luminus Network ...",
         date:"May 17, 2022",
         link:"",
@@ -103,15 +103,15 @@ function loadblogcontent(){
         <div class="w3-col l4 s12 m12" style="padding:5px">
 
         <div class="w3-col sameheightblog  w3-white w3-hover-pale-blue w3-border-round w3-margin-bottom">
-            <img src="images/blogimg.jpg" style="max-width:100%" />
+            <img src="${ournews[i].image}" style="max-width:100%" />
             <div class="w3-padding">
 
-                <h4> <b> Illuminating Human Rights: Afghanistan </b> </h4>
-                <p class="myfont2">We are excited to share the first episode of Illuminating Human Rights, a podcast in association with the Luminus Network ... </p>
+                <h4> <b> ${ournews[i].title} </b> </h4>
+                <p class="myfont2">${ournews[i].caption} </p>
 
                 <p class="myfont2  w3-small"> 
-                    <span class="w3-text-dark-grey"> May 17, 2022</span>
-                    <span class="w3-right w3-text-blue-grey"><a> <b> Read More >>> </b> </a> </span>
+                    <span class="w3-text-dark-grey"> ${ournews[i].date} </span>
+                    <span class="w3-right w3-text-blue-grey"><a href='${ournews[i].link}'> <b> Read More >>> </b> </a> </span>
                 </p>
             </div>
             
