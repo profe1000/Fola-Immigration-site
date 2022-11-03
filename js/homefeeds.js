@@ -9,7 +9,7 @@ var ourprogram =[
     details:"Assisting you and your family as you navigate the immigration process.",
     link:"program_immigration_application.html"
     },
-    {name:"Work authorization applications",
+    {name:"Social Services",
     icon:"fa-solid fa-file",
     details:"Assisting you and your family as you navigate the immigration process.",
     link:"program_work_authorisation.html"
@@ -19,7 +19,7 @@ var ourprogram =[
     details:"Assisting you and your family as you navigate the immigration process.",
     link:"program_consultaion.html"
     },
-    {name:"Family services",
+   /* {name:"Family services",
     icon:"fa-solid fa-users",
     details:"Assisting you and your family as you navigate the immigration process.",
     link:"program_family_service.html"
@@ -28,7 +28,7 @@ var ourprogram =[
     icon:"fa-solid fa-user-doctor",
     details:"Assisting you and your family as you navigate the immigration process.",
     link:"program_medical_related.html"
-    }
+    }*/
 ]
 
 
