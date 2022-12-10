@@ -2,7 +2,7 @@ var ourprogram =[
     {name:"IMMIGRATION ASSISTANCE",
     icon:"fa-solid  fa-file-contract",
     details:"Assisting you and your family as you navigate the immigration process.",
-    link:"program_immigration_legal.html"
+    link:"program_immigration_assistance.html"
     },
     {name:"EMPLOYMENT SERVICES",
     icon:"fa-solid fa-file",
