@@ -1,20 +1,15 @@
 var ourprogram =[
-    {name:"Immigration Legal Referrals",
+    {name:"IMMIGRATION ASSISTANCE",
     icon:"fa-solid  fa-file-contract",
     details:"Assisting you and your family as you navigate the immigration process.",
     link:"program_immigration_legal.html"
     },
-    {name:"Immigrant applications forms assistance",
-    icon:"fa-solid fa-file-lines",
-    details:"Assisting you and your family as you navigate the immigration process.",
-    link:"program_immigration_application.html"
-    },
-    {name:"Social Services",
+    {name:"EMPLOYMENT SERVICES",
     icon:"fa-solid fa-file",
     details:"Assisting you and your family as you navigate the immigration process.",
-    link:"program_work_authorisation.html"
+    link:"program_employment_services.html"
     },
-    {name:"Consultations - eligibility and guidance on immigration laws and regulations",
+    {name:"IMMIGRATION CONSULTATION",
     icon:"fa-solid fa-microphone",
     details:"Assisting you and your family as you navigate the immigration process.",
     link:"program_consultaion.html"
@@ -35,21 +30,21 @@ var ourprogram =[
 var ournews =[
     {
         title:"News Headline here",
-        caption:"We are excited to share the first episode of Illuminating Human Rights, a podcast in association with the Luminus Network ...",
+        caption:"We are excited to share the first episode of Illuminating Human Rights, a podcast in association with the Cconnet Network ...",
         date:"May 17, 2022",
         link:"",
         image:"images/blogimg.jpg"
     },
     {
         title:"News Headline here",
-        caption:"We are excited to share the first episode of Illuminating Human Rights, a podcast in association with the Luminus Network ...",
+        caption:"We are excited to share the first episode of Illuminating Human Rights, a podcast in association with the Cconnet Network ...",
         date:"May 17, 2022",
         link:"",
         image:"images/blogimg.jpg"
     },
     {
         title:"News Headline here",
-        caption:"We are excited to share the first episode of Illuminating Human Rights, a podcast in association with the Luminus Network ...",
+        caption:"We are excited to share the first episode of Illuminating Human Rights, a podcast in association with the Cconnet Network ...",
         date:"May 17, 2022",
         link:"",
         image:"images/blogimg.jpg"
