@@ -1,20 +1,26 @@
-var ourprogram =[
-    {name:"IMMIGRATION ASSISTANCE",
-    icon:"fa-solid  fa-file-contract",
-    details:"Assisting you and your family as you navigate the immigration process.",
-    link:"program_immigration_assistance.html"
-    },
-    {name:"EMPLOYMENT SERVICES",
-    icon:"fa-solid fa-file",
-    details:"Assisting you and your family as you navigate the immigration process.",
-    link:"program_employment_services.html"
-    },
-    {name:"IMMIGRATION CONSULTATION",
-    icon:"fa-solid fa-microphone",
-    details:"Assisting you and your family as you navigate the immigration process.",
-    link:"program_consultaion.html"
-    },
-   /* {name:"Family services",
+var ourprogram = [
+  {
+    name: "IMMIGRATION ASSISTANCE",
+    icon: "fa-solid  fa-file-contract",
+    details:
+      "Assisting you and your family as you navigate the immigration process.",
+    link: "program_immigration_assistance.html",
+  },
+  {
+    name: "EMPLOYMENT SERVICES",
+    icon: "fa-solid fa-file",
+    details:
+      "Assisting you and your family as you navigate the immigration process.",
+    link: "program_employment_services.html",
+  },
+  {
+    name: "CASE MANAGEMENT",
+    icon: "fa-solid fa-microphone",
+    details:
+      "Assisting you and your family as you navigate the immigration process.",
+    link: "program_consultaion.html",
+  },
+  /* {name:"Family services",
     icon:"fa-solid fa-users",
     details:"Assisting you and your family as you navigate the immigration process.",
     link:"program_family_service.html"
@@ -24,42 +30,45 @@ var ourprogram =[
     details:"Assisting you and your family as you navigate the immigration process.",
     link:"program_medical_related.html"
     }*/
-]
+];
 
+var ournews = [
+  {
+    title: "News Headline here",
+    caption:
+      "We are excited to share the first episode of Illuminating Human Rights, a podcast in association with the Cconnet Network ...",
+    date: "May 17, 2022",
+    link: "",
+    image: "images/blogimg.jpg",
+  },
+  {
+    title: "News Headline here",
+    caption:
+      "We are excited to share the first episode of Illuminating Human Rights, a podcast in association with the Cconnet Network ...",
+    date: "May 17, 2022",
+    link: "",
+    image: "images/blogimg.jpg",
+  },
+  {
+    title: "News Headline here",
+    caption:
+      "We are excited to share the first episode of Illuminating Human Rights, a podcast in association with the Cconnet Network ...",
+    date: "May 17, 2022",
+    link: "",
+    image: "images/blogimg.jpg",
+  },
+];
 
-var ournews =[
-    {
-        title:"News Headline here",
-        caption:"We are excited to share the first episode of Illuminating Human Rights, a podcast in association with the Cconnet Network ...",
-        date:"May 17, 2022",
-        link:"",
-        image:"images/blogimg.jpg"
-    },
-    {
-        title:"News Headline here",
-        caption:"We are excited to share the first episode of Illuminating Human Rights, a podcast in association with the Cconnet Network ...",
-        date:"May 17, 2022",
-        link:"",
-        image:"images/blogimg.jpg"
-    },
-    {
-        title:"News Headline here",
-        caption:"We are excited to share the first episode of Illuminating Human Rights, a podcast in association with the Cconnet Network ...",
-        date:"May 17, 2022",
-        link:"",
-        image:"images/blogimg.jpg"
-    }
-]
+var programcontent = "";
+var blogcontent = "";
 
-var programcontent="";
-var blogcontent="";
+function loadprogramcontent() {
+  programcontent = "";
 
-function loadprogramcontent(){
-    programcontent="";
-
-    for(var i =0; i < ourprogram.length; i++){
-
-        programcontent =  programcontent + `<div class='w3-col l4 s12 m12 ' style='padding:5px'>
+  for (var i = 0; i < ourprogram.length; i++) {
+    programcontent =
+      programcontent +
+      `<div class='w3-col l4 s12 m12 ' style='padding:5px'>
 
         <div class='programcard sameheight w3-col w3-white w3-hover-pale-blue w3-border-round w3-center w3-margin-bottom'>
     
@@ -82,19 +91,18 @@ function loadprogramcontent(){
         
             
         </div>
-    </div>`
-
-    }
-    document.getElementById("pnlprogram").innerHTML = programcontent;
+    </div>`;
+  }
+  document.getElementById("pnlprogram").innerHTML = programcontent;
 }
 
+function loadblogcontent() {
+  blogcontent = "";
 
-function loadblogcontent(){
-    blogcontent = "";
-
-    for(var i =0; i < ournews.length; i++){
-
-        blogcontent =   blogcontent + `
+  for (var i = 0; i < ournews.length; i++) {
+    blogcontent =
+      blogcontent +
+      `
         <div class="w3-col l4 s12 m12" style="padding:5px">
 
         <div class="w3-col sameheightblog  w3-white w3-hover-pale-blue w3-border-round w3-margin-bottom">
@@ -111,16 +119,11 @@ function loadblogcontent(){
             </div>
             
         </div>
-        </div> `
-    }
+        </div> `;
+  }
 
-    document.getElementById("pnlblog").innerHTML = blogcontent;
+  document.getElementById("pnlblog").innerHTML = blogcontent;
 }
-
-
-
-
 
 loadprogramcontent();
 loadblogcontent();
-
