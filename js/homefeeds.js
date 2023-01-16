@@ -68,7 +68,7 @@ function loadprogramcontent() {
   for (var i = 0; i < ourprogram.length; i++) {
     programcontent =
       programcontent +
-      `<div class='w3-col l4 s12 m12 ' style='padding:5px'>
+      `<div class='w3-col l4 s12 m12 wow fadeInUp' style='padding:5px'>
 
         <div class='programcard sameheight w3-col w3-white w3-hover-pale-blue w3-border-round w3-center w3-margin-bottom'>
     
