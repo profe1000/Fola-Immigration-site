@@ -18,7 +18,7 @@ var ourprogram = [
     icon: "fa-solid fa-microphone",
     details:
       "Assisting you and your family as you navigate the immigration process.",
-    link: "program_consultaion.html",
+    link: "program_case_management.html",
   },
   /* {name:"Family services",
     icon:"fa-solid fa-users",
