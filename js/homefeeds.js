@@ -2,6 +2,7 @@ var ourprogram = [
   {
     name: "IMMIGRATION ASSISTANCE",
     icon: "fa-solid  fa-file-contract",
+    iconImg: "images/iconimmigrant.png",
     details:
       "Assisting you and your family as you navigate the immigration process.",
     link: "program_immigration_assistance.html",
@@ -9,6 +10,7 @@ var ourprogram = [
   {
     name: "EMPLOYMENT SERVICES",
     icon: "fa-solid fa-file",
+    iconImg: "images/iconemployee.png",
     details:
       "Assisting you and your family as you navigate the immigration process.",
     link: "program_employment_services.html",
@@ -16,6 +18,7 @@ var ourprogram = [
   {
     name: "CASE MANAGEMENT",
     icon: "fa-solid fa-microphone",
+    iconImg: "images/iconsuitcase.png",
     details:
       "Assisting you and your family as you navigate the immigration process.",
     link: "program_case_management.html",
@@ -70,21 +73,21 @@ function loadprogramcontent() {
       programcontent +
       `<div class='w3-col l4 s12 m12 wow fadeInUp' style='padding:5px'>
 
-        <div class='programcard sameheight w3-col w3-white w3-hover-pale-blue w3-border-round w3-center w3-margin-bottom'>
+        <div class='programcard sameheight w3-col w3-blue-grey w3-card-4 w3-hover-pale-blue w3-round w3-center w3-margin-bottom'>
     
     
             <div class='inactive'  style='padding-top:100px; padding-bottom:100px'>
-                <i class='${ourprogram[i].icon} w3-xxlarge w3-text-blue-grey'></i>
+                <img src='${ourprogram[i].iconImg}' style='width:64px' />
     
-                <h3 class='myfont1 w3-text-blue-grey'> ${ourprogram[i].name} </h3>
+                <h3 class='myfont1 '> ${ourprogram[i].name} </h3>
             </div>
     
             <br />
     
             <div class='active' style='padding-top:20px; padding-bottom:20px'>
-                <i class='${ourprogram[i].icon} w3-xxlarge w3-text-blue-grey'></i>
+            <img src='${ourprogram[i].iconImg}' style='width:64px' />
     
-                <h3 class='myfont1 w3-text-blue-grey'> ${ourprogram[i].name} </h3>
+                <h3 class='myfont1'> ${ourprogram[i].name} </h3>
                 <p class='myfont1 w3-padding'> ${ourprogram[i].details}</p>
                 <p>   <a href='${ourprogram[i].link}' class='w3-btn w3-blue myfont1'> Learn More </a></p>
             </div>
