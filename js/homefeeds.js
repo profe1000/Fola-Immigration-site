@@ -76,7 +76,7 @@ function loadprogramcontent() {
         <div class='programcard sameheight w3-col w3-blue-grey w3-card-4 w3-hover-pale-blue w3-round w3-center w3-margin-bottom'>
     
     
-            <div class='inactive'  style='padding-top:100px; padding-bottom:100px'>
+            <div class='inactive'  style='padding-top:120px; padding-bottom:120px'>
                 <img src='${ourprogram[i].iconImg}' style='width:64px' />
     
                 <h3 class='myfont1 '> ${ourprogram[i].name} </h3>
